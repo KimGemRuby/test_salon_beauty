@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @produit.name %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @produit.model %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @produit.description %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @produit.condition %>
+</p>
+
+<p>
+  <strong>Finish:</strong>
+  <%= @produit.finish %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @produit.title %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @produit.price %>
+</p>
+
+<%= link_to 'Edit', edit_produit_path(@produit) %> |
+<%= link_to 'Back', produits_path %>
