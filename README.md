@@ -23,3 +23,4 @@ Things you may want to cover:
 
 * ...
 # test_salon_beauty
+# carrierwave-devise
